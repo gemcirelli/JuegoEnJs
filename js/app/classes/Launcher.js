@@ -1,10 +1,11 @@
 
-define( ['Class','Display'], function(Class, Display){
+define( ['Class','Game'], function(Class, Game){
 
     var Launcher = Class.extend({
         init: function(_title,_width,_height){
-             console.log("el titulacho es",_title);
-            var display= new Display(_title,_width,_height);
+             
+            var game= new Game(_title,_width,_height);
+            game.start();
            
         }
     }); //permite qyue launcher sea extendida

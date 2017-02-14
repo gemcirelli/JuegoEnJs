@@ -18,9 +18,9 @@ define( ['Jquery', 'Class'], function($,Class){
     //Private method
     function createDisplay(){
         document.title=title;
-        console.log("el ancho es",width);
+        
         var body = document.body;
-        body.innerHTML= ("<canvas id='canvas' width='"+width+" height='"+height+"'></canvas>");
+        body.innerHTML= ("<canvas id='canvas' width='"+width+"' height='"+height+"'></canvas>");
         graphics=document.getElementById("canvas").getContext("2d");
 
     }
