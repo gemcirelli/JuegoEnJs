@@ -5,10 +5,12 @@ requirejs.config({
       "Jquery":"libs/jquery",
 
       //Classes 
+      "Assets":"app/classes/gfx/Assets",
       "ImageLoader":"app/classes/gfx/ImageLoader" ,
       "Launcher":"app/classes/Launcher" ,
       "Display":"app/classes/display/Display" ,
-      "Game":"app/classes/Game" 
+      "Game":"app/classes/Game",
+      "SpriteSheet":"app/classes/gfx/SpriteSheet" 
     }
     
     
