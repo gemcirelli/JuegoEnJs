@@ -10,7 +10,9 @@ requirejs.config({
       "Launcher":"app/classes/Launcher" ,
       "Display":"app/classes/display/Display" ,
       "Game":"app/classes/Game",
-      "SpriteSheet":"app/classes/gfx/SpriteSheet" 
+      "GameState": "app/classes/states/GameState",
+      "SpriteSheet":"app/classes/gfx/SpriteSheet",
+      "State":"app/classes/states/State" 
     }
     
     
