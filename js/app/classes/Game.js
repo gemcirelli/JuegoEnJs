@@ -26,7 +26,7 @@ define([ 'Class','Display', 'ImageLoader','Assets'], function(Class, Display, Im
     }
     var x = 20;
     var y = 30;
-var img = ImageLoader.loadImage("https://i.stack.imgur.com/OrOS9.png");
+
     function tick(_td){
         
     }
